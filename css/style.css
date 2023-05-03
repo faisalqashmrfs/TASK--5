@@ -1,0 +1,363 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar.navbar-expand-lg.border{
+    box-shadow: 0px 0px 10px 1px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: rgb(255, 255, 255);
+    z-index: 5;
+    height: 70px;
+    transition: .8s;
+}
+.navbar-brand{
+    width: 5%;
+    margin-left: 49%;
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
+.new {
+    background-color: rgb(210, 210, 210)!important;
+    height: 60px!important;
+    transition: 0.8s!important;
+    padding: 10px !important;
+}
+.navbrand{
+    color:rgb(255, 255, 255) !important;
+    font-size: 28px !important;
+    transition: .8s !important;
+}
+
+.hero{
+    width: 100%;
+    height: 908px;
+    margin-top: 60px;
+    background-image: none;
+    background-color: rgb(248, 255, 255);
+    transition: .8s;
+}
+.newhero{
+    width: 100%;
+    height: 908px;
+    margin-top: 60px;
+    background-image: url(../img/face.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-color: rgb(234, 255, 255);
+    transition: .8s;
+}
+
+.card-hero{
+    padding: 20px;
+    top: 400px;
+    left: 100px;
+    position: absolute;
+    width: 40%;
+    background-color: transparent;
+}
+.card-hero button{
+    display: block;
+    margin: 10px 0;
+    width: 30%;
+}
+.My-Services{
+    width: 100%;
+    height: 600px;
+}
+.My-Services h1 , .About-Me h2{
+    width: 16%;
+    margin: 50px 43%;
+    padding: 10px;
+}
+.My-Services .services{
+    width: 90%;
+    padding: 3%;
+    margin: 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 75px;
+}
+.My-Services .services .services-card{
+    width: 46%;
+    padding: 8px;
+    border: 1px solid rgb(232, 232, 232);
+    border-top: none;
+    transition: .4s;
+    display: flex;
+}
+.My-Services .services .services-card:hover{
+    box-shadow: 0px 0px 14px 3px rgb(209, 209, 209);
+}
+.My-Services .services .services-card img{
+    width: 20%;
+    height: 40%;
+    border-radius: 50%;
+}
+.My-Services .services .services-card .bodyservices{
+    width: 83%;
+    height: 150px;
+}
+.My-Services .services .services-card .bodyservices p{
+    color: rgb(93, 93, 93);
+}
+.About-Me{
+    width: 100%;
+    height: 675px;
+}
+.About-Me .about-me-container{
+    width: 70%;
+    margin: 11% 15% 5% 15%;
+    padding: 4%;
+}
+.About-Me .about-me-container .loren1to3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+}
+.About-Me .about-me-container .loren1to3 .loren1 p{
+    height: 300px;
+    font-size: 18px;
+}
+.About-Me .about-me-container .loren1to3 img{
+    width: 300px;
+    height: 300px;
+}
+.About-Me .about-me-container .loren1to3 .loren1 {
+    width: 28%;
+    height: 350px;
+    padding: 10px;
+}
+.py-5.testimonials.bg-secondary{
+    width: 100%;
+    height: 500px;
+    padding: 50px;
+}
+.d-block .w-100{
+    height: 500px;
+}
+.Clients{
+    width: 100%;
+    height: 500px;
+}
+.container-logo{
+    width: 8%;
+    margin: 70px 46%;
+}
+.form-contact{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(234, 255, 255);
+}
+.title-contact h1{
+    width: 17%;
+    margin: 50px 42%;
+}
+.form-contact .form-body{
+    width: 90%;
+    height: 80%;
+    margin: 5%;
+}
+.form-contact .form-body #first-last{
+    display: flex;
+    justify-content: space-between;
+}
+.form-contact .form-body #first-last input{
+    width: 47%;
+    height: 50px;
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    background-color: transparent;
+}
+.form-contact .form-body #email input{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    padding: 5px;
+    margin: 3% 0;
+    border: none;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    background-color: transparent;
+}
+.form-contact .form-body #subject input{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 3%;
+    border: none;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    background-color: transparent;
+}
+.form-contact .form-body #area textarea{
+    width: 100%;
+    height: 250px!important;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 3%;
+    border: none;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    background-color: transparent;
+}
+.form-contact .form-body .btn.btn-success{
+    border-radius: 50px;
+    width: 180px;
+}
+#acoloe-countroul{
+    text-decoration: none;
+    color: gainsboro;
+}
+
+/* /////////////////////////////////////////@media///////////////////////////////////////// */
+
+@media(max-width:1545px){
+    .About-Me{
+        height: 1200px;
+    }
+    .About-Me .about-me-container{
+        width: 90%;
+        margin: 5%;
+        padding: 4%;
+    }
+    .About-Me .about-me-container .loren1to3{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+    .About-Me .about-me-container .loren1to3 .loren1{
+        width: 90%;
+        height: max-content;
+        padding: 10px;
+        font-size: 18px;
+    }
+    .About-Me .about-me-container .loren1to3 img{
+        width: 50%;
+        height: 300px;
+    }
+    .About-Me .about-me-container .loren1to3 .loren1 p{
+        width: 90%;
+        margin: 5% 0;
+        padding: 0px;
+        height: max-content;
+        font-size: 18px;
+    }
+    .title-contact h1, .About-Me h2 , .My-Services h1 {
+        width: 26%;
+        margin: 50px 39%;
+    }
+}
+
+
+
+
+@media(max-width:1135px){
+    .My-Services{
+        width: 100%;
+        height: 1300px;
+    }
+    .My-Services .services .services-card{
+        width: 70%;
+        transition: 0.4s;
+    }
+    .hero{
+        width: 100%;
+        height: 908px;
+        margin-top: 60px;
+        background-image: url(../img/face.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+        background-color: rgb(234, 255, 255);
+    }
+    .title-contact h1, .About-Me h2{
+        width: 26%;
+        margin: 50px 37%;
+    }
+}
+@media(min-width:992px){
+    .nav-link.active{
+        position: absolute;
+        left: 25%;
+        top: 10px;
+    }
+    .nav-link.left{
+        position: absolute;
+        left: 32%;
+        top: 10px;
+    }
+    .nav-link.left2{
+        position: absolute;
+        left: 40%;
+        top: 10px;
+    }
+    .nav-link.right1{
+        position: absolute;
+        right: 38%;
+        top: 10px;
+    }
+    .nav-link.right2{
+        position: absolute;
+        right: 30%;
+        top: 10px;
+    }
+    .nav-link.right3{
+        position: absolute;
+        right: 22%;
+        top: 10px;
+    }
+}
+@media(max-width:900px){
+    .My-Services h1{
+        width: 28%;
+        margin: 50px 36%;
+        padding: 10px;
+        font-size: 25px;
+    }
+    .My-Services .services .services-card{
+        width: 90%;
+        transition: 0.4s;
+    }
+    .title-contact h1, .About-Me h2{
+        width: 30%;
+        margin: 50px 35%;
+    }
+}
+
+
+@media(max-width:710px){
+    .hero{
+    width: 100%;
+    height: 900px;
+    background-image: url(../img/face.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    }
+    .title-contact h1, .About-Me h2, .My-Services h1 {
+        width: 40%;
+        margin: 50px 30%;
+    }
+    .About-Me {
+        height: max-content;
+    }
+} 
+@media(max-width:505px){
+    .My-Services .services .services-card , .My-Services h1 {
+        width: 95%;
+        transition: 0.4s;
+    }
+}
